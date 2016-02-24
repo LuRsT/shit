@@ -1,4 +1,4 @@
-# Shit
+# Shit (Show Image In Terminal)
 
 Display images in your terminal no matter the terminal (at least 256 colors).
 
