@@ -26,7 +26,6 @@ At the moment this script was only tested on Ubuntu and Arch Linux.
 Copy the script to your `bin` directory (that should be in your `$PATH` and
 install the following required perl modules.
 
-    perl -MCPAN -Mlocal::lib -e 'CPAN::install(Term::Size)'
 
 ### Arch linux
 
@@ -35,3 +34,9 @@ install the following required perl modules.
 ### Ubuntu
 
     sudo apt-get install libimage-magick-perl
+    sudo apt-get install liblocal-lib-perl
+
+and finally:
+
+    perl -MCPAN -Mlocal::lib -e 'CPAN::install(Term::Size)'
+
